@@ -3,6 +3,6 @@ export class ItenVencido{
     dataVencimento: string;
     fimCodigo : string;
     nome: string;
-    quantidade:string;
+    quantidade: string;
     ass: string;
 }
