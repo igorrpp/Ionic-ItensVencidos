@@ -44,7 +44,7 @@ export class LoginPage implements OnInit {
        load.dismiss();
 
         this.menuCtrl.enable(true);
-        this.navCtrl.navigateRoot(['clientes']);
+        this.navCtrl.navigateRoot(['itensvencidos']);
 
       }).catch(data => {
         load.dismiss();
